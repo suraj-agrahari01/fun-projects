@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="container">
+			<div id="intro">
+				<h1>Welcome to Tic Tac Toe!</h1>
+				<p>Rules:</p>
+				<ul>
+					<li>
+						Players take turns marking a square with their symbol (X
+						or O).
+					</li>
+					<li>
+						The player who succeeds in placing three of their marks
+						in a horizontal, vertical, or diagonal row wins the
+						game.
+					</li>
+					<li>
+						If the board is filled and no player has won, the game
+						is a draw.
+					</li>
+				</ul>
+			</div>
+			<div id="game-container">
+				<div id="game-board">
+					<!-- The game board cells will be dynamically generated using JavaScript -->
+				</div>
+				<button id="restart-btn">Restart Game</button>
+				<button id="end-game-btn">End Game</button>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
